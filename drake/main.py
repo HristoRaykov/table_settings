@@ -13,7 +13,7 @@ data = rng.integers(0, 100, size=(100, cols_count))
 df = pd.DataFrame(data, columns=columns)
 
 app = Dash(__name__,
-           external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP],
+           external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP, ],
            external_scripts=["https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js",
                              'https://code.jquery.com/jquery-3.2.1.min.js'],
            )

@@ -8,22 +8,28 @@ window.dash_clientside.clientside = {
 
 
         setTimeout(function () {
+            // var drake = dragula({});
+            // var el = document.getElementById(id);
+            //
+            // drake.containers.push(el);
 
-            var drake = dragula({});
             var el = document.getElementById(id);
+            var drake = dragula([el]);
 
-            drake.containers.push(el);
 
-            var scroll = autoScroll([
-                this,
-                el,
-            ], {
-                margin: 20,
-                autoScroll: function () {
-                    return this.down && drake.dragging;
-                }
-            });
-
+            // setTimeout(function () {
+            //     var position = _el.getBoundingClientRect();
+            //     const y = position.y
+            //     const containerBottom = source.offsetTop + source.offsetHeight;
+            //     const containerTop = source.offsetTop;
+            //
+            //
+            //     if (containerBottom - y < 120) {
+            //         source.scrollTop += 50;
+            //     } else if (containerTop + y < 120) {
+            //         source.scrollTop += 50;
+            //     }
+            // })
 
             drake.on("drop", function (_el, target, source, sibling) {
                 // a component has been dragged & dropped
@@ -51,6 +57,21 @@ window.dash_clientside.clientside = {
         return window.dash_clientside.no_update
     }
 }
+
+// function _scrollDown(container, pageY) {
+//     if (this.drake.dragging && pageY === this._pageY) {
+//         container.scrollTop += 5;
+//         setTimeout(this._scrollDown.bind(this, container, pageY), 20);
+//     }
+// }
+//
+// function _scrollUp(container, pageY) {
+//     if (this.drake.dragging && pageY === this._pageY) {
+//         container.scrollTop -= 5;
+//         setTimeout(this._scrollUp.bind(this, container, pageY), 20);
+//     }
+// }
+
 //
 // document.addEventListener('mousemove', this._onMouseMove);
 //
