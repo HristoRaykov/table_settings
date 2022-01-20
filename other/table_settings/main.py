@@ -1,7 +1,8 @@
+import numpy as np
 import pandas as pd
 from dash import callback_context, Dash, Output, Input, State
 
-from drake.functions import *
+from functions import *
 
 pd.options.mode.chained_assignment = None
 
@@ -55,7 +56,7 @@ color_inputs = [Input(i, 'value') for i in color_ids]
 )
 def visible_select_all(select_all, visibilities):
     ctx = callback_context
-    trig_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    trig_id = ctx.triggered[0]['prop_id'].split('.')[0] = ctx.triggered[0]["prop_id"].split(".")[0]
 
     if trig_id == visible_select_all_id:
         count = len(visibilities)

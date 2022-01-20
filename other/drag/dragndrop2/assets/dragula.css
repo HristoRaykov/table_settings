@@ -5,31 +5,18 @@
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter: alpha(opacity=80);
-}
-
-
-.gu-hide {
+  }
+  .gu-hide {
     display: none !important;
-}
-
-.gu-unselectable {
+  }
+  .gu-unselectable {
     -webkit-user-select: none !important;
     -moz-user-select: none !important;
     -ms-user-select: none !important;
     user-select: none !important;
-}
-
-.gu-transit {
+  }
+  .gu-transit {
     opacity: 0.2;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
     filter: alpha(opacity=20);
-}
-
-
-/*#settings_table {*/
-/*    !*background-color: lightBlue;*!*/
-/*    cursor: default;*/
-/*    overflow-y: auto;*/
-/*    !*height: 100px;*!*/
-/*    !*padding: 10px;*!*/
-/*}*/
+  }
