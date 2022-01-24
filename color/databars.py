@@ -28,7 +28,6 @@ def data_bars(df, column):
                 ).format(column=column, min_bound=min_bound, max_bound=max_bound),
                 'column_id': column
             },
-            # todo change color #0074D9
             'background': (
                 """
                     linear-gradient(90deg,
