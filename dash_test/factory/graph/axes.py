@@ -1,5 +1,5 @@
 import dash_bootstrap_components as dbc
-from dash import html, dcc
+from dash_test import html, dcc
 import dash_daq as daq
 
 from web.dash.constants import *

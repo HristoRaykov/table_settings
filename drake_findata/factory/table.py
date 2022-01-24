@@ -1,5 +1,5 @@
 import dash_bootstrap_components as dbc
-from dash import dash_table, html
+from dash_test import dash_table, html
 
 from web.dash.utils import column_definitions, generate_id
 from findata.commons.constants.columns.base import SYMBOL_COL
@@ -335,7 +335,7 @@ def table_factory(df, prefix=None):
                                  css=[
                                      {'selector': 'table', 'rule': 'width: 100%;'},
                                      {
-                                         'selector': '.dash-spreadsheet.dash-freeze-top,.dash-spreadsheet.dash-virtualized',
+                                         'selector': '.dash_test-spreadsheet.dash_test-freeze-top,.dash_test-spreadsheet.dash_test-virtualized',
                                          'rule': 'max-height: 80vh;'}],
 
                                  )

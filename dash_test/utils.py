@@ -1,6 +1,6 @@
 import numpy as np
-from dash import dash_table
-from dash.dash_table.Format import Align
+from dash_test import dash_table
+from dash_test.dash_table.Format import Align
 
 ID_SEP = '-'
 

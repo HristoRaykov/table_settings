@@ -1,5 +1,5 @@
 import pandas as pd
-from dash import Dash, Output, Input, State, ClientsideFunction
+from dash_test import Dash, Output, Input, State, ClientsideFunction
 
 from drake.functions import *
 

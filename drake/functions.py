@@ -1,7 +1,7 @@
 import dash_bootstrap_components as dbc
 import numpy as np
-from dash import dash_table, html
-from dash.dash_table.Format import Align
+from dash_test import dash_table, html
+from dash_test.dash_table.Format import Align
 
 from constants import *
 

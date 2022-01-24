@@ -1,4 +1,4 @@
-from dash import dcc
+from dash_test import dcc
 
 from web.dash.factory.graph.axes import GRAPH_TYPES_MAP
 from web.dash.utils import generate_id

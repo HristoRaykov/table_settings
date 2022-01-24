@@ -1,10 +1,10 @@
-import dash
+import dash_test
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
-from dash.dependencies import Input, Output, State, ClientsideFunction
+from dash_test.dependencies import Input, Output, State, ClientsideFunction
 
-app = dash.Dash(
+app = dash_test.Dash(
     __name__,
     external_scripts=["https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"],
     external_stylesheets=[dbc.themes.BOOTSTRAP]

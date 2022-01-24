@@ -7,7 +7,7 @@ import plotly.figure_factory as ff
 import plotly.express.trendline_functions
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
-from dash import dash_table, Dash, dcc, Output, Input, State, no_update, html
+from dash_test import dash_table, Dash, dcc, Output, Input, State, no_update, html
 
 from findata.commons.constants.columns.base import SYMBOL_COL
 from research.container import YieldCurvesContainer

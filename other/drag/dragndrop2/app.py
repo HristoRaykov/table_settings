@@ -1,8 +1,8 @@
-import dash
+import dash_test
 import dash_html_components as html
-from dash.dependencies import Input, Output, ClientsideFunction, State
+from dash_test.dependencies import Input, Output, ClientsideFunction, State
 
-app = dash.Dash(
+app = dash_test.Dash(
     __name__,
     external_scripts=["https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"],
 )

@@ -1,5 +1,5 @@
 import pandas as pd
-from dash import Dash
+from dash_test import Dash
 
 from drake.functions import *
 

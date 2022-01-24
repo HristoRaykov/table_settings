@@ -1,13 +1,13 @@
 import dash_draggable
-import dash
-from dash.dependencies import Input, Output
+import dash_test
+from dash_test.dependencies import Input, Output
 import dash_html_components as html
 import dash_core_components as dcc
 import plotly.graph_objs as go
 import dash_daq as daq
 from dash_draggable.DashDraggable import DashDraggable
 
-app = dash.Dash(__name__)
+app = dash_test.Dash(__name__)
 
 app.scripts.config.serve_locally = True
 app.css.config.serve_locally = True

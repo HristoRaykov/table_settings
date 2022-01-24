@@ -1,5 +1,5 @@
-import dash
-from dash.dependencies import Input, Output
+import dash_test
+from dash_test.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -11,7 +11,7 @@ import dash_draggable
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash_test.Dash(__name__, external_stylesheets=external_stylesheets)
 
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 

@@ -1,14 +1,14 @@
 import dash_draggable
-import dash
-from dash.dependencies import Input, Output, State
-from dash.exceptions import PreventUpdate
+import dash_test
+from dash_test.dependencies import Input, Output, State
+from dash_test.exceptions import PreventUpdate
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
 import pandas as pd
 from dash_draggable.DashDraggable import DashDraggable
 
-app = dash.Dash(__name__)
+app = dash_test.Dash(__name__)
 
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 

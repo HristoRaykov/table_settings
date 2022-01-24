@@ -1,5 +1,5 @@
 import pandas as pd
-from dash import Dash, html, Output, Input, State, ClientsideFunction, callback_context
+from dash_test import Dash, html, Output, Input, State, ClientsideFunction, callback_context
 import dash_bootstrap_components as dbc
 
 import QuantLib as ql

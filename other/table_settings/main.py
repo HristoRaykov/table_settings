@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from dash import callback_context, Dash, Output, Input, State
+from dash_test import callback_context, Dash, Output, Input, State
 
 from functions import *
 

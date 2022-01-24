@@ -1,7 +1,7 @@
 import QuantLib as ql
 import dash_bootstrap_components as dbc
 import pandas as pd
-from dash import Dash, Input, Output, State, callback_context, html, no_update, ClientsideFunction
+from dash_test import Dash, Input, Output, State, callback_context, html, no_update, ClientsideFunction
 
 from research.container import YieldCurvesContainer
 from web.dash.constants import CONDITIONAL_X_Y_GRAPH_TYPES
@@ -72,7 +72,7 @@ color_inputs = [Input(i, 'value') for i in color_ids]
 #     State('debt_secs-layout', 'children'),
 # )
 # def table(accordion, app_layout):
-#     spreadsheet_menu = find_element_by_id(app_layout, 'dash-spreadsheet-menu')
+#     spreadsheet_menu = find_element_by_id(app_layout, 'dash_test-spreadsheet-menu')
 #     table_container = find_element_by_id(app_layout, 'debt_secs-table_container')
 #     return no_update
 

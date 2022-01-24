@@ -1,5 +1,5 @@
 import dash_bootstrap_components as dbc
-from dash import html
+from dash_test import html
 from plotly import express as px
 
 from web.dash.constants import *

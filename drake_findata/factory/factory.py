@@ -1,6 +1,6 @@
 import numpy as np
 import dash_bootstrap_components as dbc
-from dash import html
+from dash_test import html
 
 from web.dash.factory.graph.axes import COLS_MAP, NUM_COLS, ENUM_COLS, TEXT_COLS, BOOL_COLS, DATE_COLS, \
     ALL_COLS
