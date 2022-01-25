@@ -4,7 +4,7 @@ from dash import dash_table, html, dcc
 from dash.dash_table.Format import Align
 
 from table_settings.settings.colors import styles_factory
-from table_settings.settings.settings import settings_factory
+from table_settings.settings.settings_dash import settings_factory
 from table_settings.utils import generate_id
 
 BASE_TABLE_FORMAT = [

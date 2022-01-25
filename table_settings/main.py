@@ -6,7 +6,7 @@ import pandas as pd
 from dash import Dash, Input, Output, State, callback_context, html, dcc
 
 from table_settings.constants import TABLE_WIDTH, TABLE_EXPAND_HEIGHT, TABLE_SHRINK_HEIGHT, ID_SEP
-from table_settings.settings.settings import settings_table_factory
+from table_settings.settings.settings_dash import settings_table_factory
 from table_settings.table import table_panel_factory, BASE_TABLE_FORMAT
 from table_settings.utils import generate_test_table, find_element_by_id, generate_id
 
